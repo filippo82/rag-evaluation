@@ -1,0 +1,64 @@
+/* The top level dialog (a Container) */
+#dialog {
+    /* height: 100%; */
+    margin: 1 1;
+    /* background: $panel; */
+    /* background: darkslateblue; */
+    color: $text;
+    border: tall $background;
+    padding: 1 2;
+}
+
+/* Static {
+    background: darkolivegreen;
+    height: 5%;
+} */
+
+/* The button class */
+Button {
+    width: 100%;
+    margin: 1 1;
+}
+
+/*  */
+.squirrel {
+    content-align: center middle;
+}
+
+/* Matches the question text */
+.question {
+    text-style: bold;
+    height: 5;
+    content-align: center middle;
+    /* background: darkcyan; */
+}
+
+/* Matches the button container */
+.buttons {
+    grid-size: 3 4;
+    /* width: 1fr; */
+    /* height: auto; */
+    /* height: 16; */
+    /* max-height: 25vh; */
+    /* dock: bottom; */
+    /* margin: 4 2; */
+    /* background: darkgoldenrod; */
+}
+
+/* .help {
+    color: black;
+    background: palevioletred;
+} */
+
+/* Help {
+    background: $primary;
+    color: $text;
+    border: round $primary-lighten-3;
+    padding: 2;
+} */
+
+#results-container {
+    height: 1fr;
+}
+
+/* style.css ends here */
